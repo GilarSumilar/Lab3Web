@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form dengan Dropdown dan Listbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #3498db;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form dengan Dropdown dan Listbox</h1>
+
+    <form>
+        <label for="dropdown">Pilih salah satu dari dropdown:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Pilihan 1</option>
+            <option value="option2">Pilihan 2</option>
+            <option value="option3">Pilihan 3</option>
+        </select>
+
+        <label for="listbox">Pilih beberapa dari listbox:</label>
+        <select id="listbox" name="listbox" multiple>
+            <option value="item1">Item 1</option>
+            <option value="item2">Item 2</option>
+            <option value="item3">Item 3</option>
+            <option value="item4">Item 4</option>
+            <option value="item5">Item 5</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
