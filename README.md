@@ -19,8 +19,10 @@ screenshotnya.
 ### Tugas +
 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 
+[Sourcecode](https://github.com/GilarSumilar/Lab3Web/blob/main/Dropdown%20%26%20Listbox.html)
+
 **Hasil tugas :**
-![T]()   
+![T](Gambar/Tugas.png)   
 
 ## 1. Membuat Ordered List
 ```HTML
